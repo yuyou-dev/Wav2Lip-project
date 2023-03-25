@@ -10,8 +10,8 @@ Wav2Lip的主要优势是它能够实现高质量的唇形同步效果，同时�
 1. 首先，你需要准备一段音频文件（例如：sample_audio.wav）和一段视频文件（例如：sample_video.mp4），视频文件中应该包含一个人物的面部图像。
 2. 接下来，你可以使用以下命令来运行Wav2Lip：
     
-    ```css
-    python [inference.py](http://inference.py/) --checkpoint_path /path/to/wav2lip_gan.pth --face /path/to/sample_video.mp4 --audio /path/to/sample_audio.wav --outfile /path/to/output_video.mp4
+    ```bash
+    python --checkpoint_path /path/to/wav2lip_gan.pth --face /path/to/sample_video.mp4 --audio /path/to/sample_audio.wav --outfile /path/to/output_video.mp4
     ```
     
     将其中的路径替换为实际的文件路径。命令中的**`--checkpoint_path`**参数指定了预训练模型的路径，**`--face`**参数指定了输入视频的路径，**`--audio`**参数指定了输入音频的路径，最后，**`--outfile`**参数指定了生成的同步视频的输出路径。
