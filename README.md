@@ -48,16 +48,14 @@ pip install torch torchvision -f https://download.pytorch.org/whl/cpu/torch_sta
 
 2. 克隆Wav2Lip的GitHub仓库到本地：
 
-```
-bashCopy code
+```bash
 git clone https://github.com/Rudrabha/Wav2Lip.git
 
 ```
 
 3. 进入Wav2Lip目录并安装其他依赖包：
 
-```
-bashCopy code
+```bash
 cd Wav2Lip pip install -r requirements.txt
 
 ```
